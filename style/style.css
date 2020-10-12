@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Grand+Hotel&family=Sansita+Swashed:wght@600&family=Staatliches&display=swap');
+body {
+    background-color: #3f3d3d;
+    color: #fff;
+}
+.navlist a{
+    color: beige;
+}
+.navbar {
+    background-color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: blue !important;
+}
+.dropdown-item:hover {
+    color: blue !important;
+}
+.icon {
+    object-fit: contain;
+    height: 50px;
+    filter:invert(100%);
+}
+.about img {
+    border-radius: 15px;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel_image {
+    height: 700px !important;
+}
+.navbar {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 28px;
+}
+.place_Name{
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+.container {
+    color: black !important;
+}
+.gallary img {
+    height: 270px;
+    width: 440px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px 0px;
+    outline: none;
+
+}
+.custom_bg{
+    background-color: #323232;
+}
+/* .my-5{
+    margin-bottom: 1px!important;
+} */
+.footer{
+    font-size: 20.5px;
+    color:white;
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 2px;    
+}
+
+
+@media screen and (max-width: 767px) {
+    .carousel_image {
+        height: 90vh !important;
+    }
+   .card {
+    margin-top:20px !important;
+  }
+  .about {
+      display:flex;
+      justify-content:center;
+      /* align-items:center; */
+      margin-top:0 !important;
+      margin-bottom:36px !important;
+  }
+  .gallary {
+      display:flex;
+      justify-content:center;
+  }
+  .footer {
+      font-size: 14px;
+  }
+}
